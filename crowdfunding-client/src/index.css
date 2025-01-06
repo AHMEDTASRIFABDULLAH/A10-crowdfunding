@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+[data-theme="dark"] {
+  background-color: #1f2937;
+  color: rgb(242, 233, 233);
+}
+.active {
+  color: #ec4899;
+}
+html {
+  scroll-behavior: smooth;
+}
